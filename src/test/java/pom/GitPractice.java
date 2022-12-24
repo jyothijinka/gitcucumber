@@ -14,7 +14,20 @@ String title = driver.getTitle();
 System.out.println(title);
 return title;
 }
+
 public void simpleCode() {
+	System.out.println("this is succesful");
+System.out.println("now i got it");
+}
+public void simpleCode2() {
+	System.out.println("this is succesful");
+System.out.println("now i got it");
+System.out.println("this is succesful");
+System.out.println("now i got it");
+System.out.println("this is succesful");
+System.out.println("now i got it");
+}
+public void simpleCode3() {
 	System.out.println("this is succesful");
 System.out.println("now i got it");
 }
