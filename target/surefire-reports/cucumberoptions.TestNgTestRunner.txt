@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cucumberoptions.TestNgTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.666 s <<< FAILURE! - in cucumberoptions.TestNgTestRunner
+cucumberoptions.TestNgTestRunner.runScenario["Search experience for product search in both home and offer page", "Search and place the order for products"](1)  Time elapsed: 0.056 s  <<< FAILURE!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefination.LandingPageStepDefination.user_searched_with_short_name_something_and_extracted_actual_name_of_product(java.lang.String) and stepDefination.OfferPageStepDefination2.user_searched_with_short_name_something_and_extracted_actual_name_of_product(java.lang.String)
+
