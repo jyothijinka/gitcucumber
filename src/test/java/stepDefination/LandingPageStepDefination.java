@@ -41,6 +41,7 @@ public class LandingPageStepDefination {
 	    	Thread.sleep(2000);
 	    	testcontextsetup.landingpageproductname = landingpage.getProductName().split("-")[0].trim();
 	    	System.out.println(testcontextsetup.landingpageproductname +"is extracted from home page");
+	    
 	    }
 	    
 	    @And("^Added \"([^\"]*)\" items of selected product to cart$")
@@ -50,6 +51,11 @@ public class LandingPageStepDefination {
 	    	
 		landingpage.addToCart(); 
 			
+	    }
+	    @When("^User selected flight booking feature$")
+	    public void user_selected_flight_booking_feature() throws Throwable {
+	       landingpage.selectFlightBooking(); 
+	     
 	    }
 	    
 }

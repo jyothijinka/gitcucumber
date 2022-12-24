@@ -9,6 +9,7 @@ By product=By.cssSelector("h4[class='product-name']");
 By topdeals=By.linkText("Top Deals");
 By incrementItem=By.linkText("+");
 By addtocart=By.cssSelector(".product-action button");
+By flightbooking=By.linkText("Flight Booking");
 
 public WebDriver driver;
 public LandingPagePomClass(WebDriver driver){
@@ -41,5 +42,8 @@ public void addToCart() {
 
 public String getTitle() {
 	 return driver.getTitle();
+}
+public void selectFlightBooking() {
+	driver.findElement(flightbooking).click();
 }
 }
