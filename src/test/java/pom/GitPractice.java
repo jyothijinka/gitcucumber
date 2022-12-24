@@ -14,5 +14,9 @@ String title = driver.getTitle();
 System.out.println(title);
 return title;
 }
+public void simpleCode() {
+	System.out.println("this is succesful");
+
+}
 
 }
