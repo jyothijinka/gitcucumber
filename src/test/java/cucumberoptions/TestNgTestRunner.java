@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features="src/test/java/features",
-		glue="stepDefination", monochrome=true,tags="@gitpractice",
+		glue="stepDefination", monochrome=true,tags="@gitpractice or @PlaceOrder",
 		plugin= {"html:target/cucumber.html","json:target/cucumber.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"rerun:target/failed-scenarios.txt"})

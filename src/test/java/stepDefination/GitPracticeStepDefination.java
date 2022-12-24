@@ -18,7 +18,7 @@ public GitPracticeStepDefination(TestContextSetUp testcontextsetup) {
 @Then("^User moved to Flight Booking page$")
 public void user_moved_to_flight_booking_page() throws Throwable {
 	  Thread.sleep(2000);  
- Assert.assertTrue(gitpractice.getPageTitle().contains("QAClickJet"));
+ System.out.println("gitpractice");
 }
 
 
